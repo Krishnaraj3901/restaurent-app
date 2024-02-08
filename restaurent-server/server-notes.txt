@@ -1,0 +1,17 @@
+1.create package.json file - npm init -y
+2.install json-server - npm i json-server
+3.create .gitignore file - node_modules
+4.create a db.json file (for stroing data)
+5.create a index.js file
+  1.import json -server
+  2.cerate a server
+  3.setup path for db.json file
+  4.setup middleware used by json server
+  5.setup port for server
+  6.use middleware and server
+  7.to run the server
+
+6.change in package.json file
+    "scripts": {
+    "start": "node index.js"
+  },

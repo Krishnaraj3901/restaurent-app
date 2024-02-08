@@ -1,0 +1,13 @@
+git init
+
+git add .
+
+git status
+
+git commit -m "message"
+
+create a repostory and copy paste 6th line
+
+git push origin master
+
+then,go to pages->branch to master and save

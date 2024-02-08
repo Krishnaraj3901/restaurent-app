@@ -1,0 +1,47 @@
+
+                    REACT - RESTAURENT LISTING APP(FRONT-END)
+              ----------------------------------------------------
+
+  1.create a new product folder restaurent listing APP
+  2.clear the unwanted codes and files
+  3.install the 3rd party libraries
+     1.React boostrap
+     2.font awesome
+     3.google-fonts
+     4.React-bootswatch
+  5.create components
+    1.Header folder
+      Header.jsx
+      Header.css
+    2.AllRest folder(main)
+      AllRest.jsx
+      AllRest.css
+    3.Footer folder
+      Footer.jsx
+      Footer.css
+
+6.create json server 
+7.API fetching
+8. ->Axios - npm i axios
+   -> Introduction to Axios: Axios, which is a popular library is mainly used to send asynchronous HTTP requests to REST endpoints. This library is very useful to perform CRUD operations.
+   ->This popular library is used to communicate with the backend. Axios supports the Promise API, native to JS ES6.
+   ->Using Axios we make API requests in our application. Once the request is made we get the data in Return, and then we use this data in our project.
+9.Get allrest data in all rest component using API call
+10. inside AllRest component
+    ->Import Axios
+    ->create a function for fetching data
+    ->function call using use effect
+    ->create a state for holding the data
+
+11.path setup
+  localhost:3000 - allrest component
+  localhost:3000/view/id - Viewrest component
+
+  Routing- react-router-dom -library --> Installation - npm i react-router-dom
+
+  ->BrowserRouter -  To render Full application
+  ->Routes -  used to hold mulitiple Routes
+  ->Route - used for single component path
+
+12.LINK 
+   used to redirect one page to another
